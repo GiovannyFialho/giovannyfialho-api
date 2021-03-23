@@ -2,7 +2,8 @@
   "kind": "singleType",
   "collectionName": "landing_pages",
   "info": {
-    "name": "landingPage"
+    "name": "landingPage",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -14,6 +15,11 @@
       "type": "component",
       "repeatable": false,
       "component": "header.header"
+    },
+    "main": {
+      "type": "component",
+      "repeatable": false,
+      "component": "main.main"
     }
   }
 }

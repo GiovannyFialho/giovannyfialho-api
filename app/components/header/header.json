@@ -14,11 +14,6 @@
       "type": "component",
       "repeatable": true,
       "component": "header.redes-sociais"
-    },
-    "main": {
-      "type": "component",
-      "repeatable": false,
-      "component": "main.main"
     }
   }
 }
