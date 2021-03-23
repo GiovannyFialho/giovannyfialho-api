@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_header_headers",
+  "info": {
+    "name": "header",
+    "icon": "h-square"
+  },
+  "options": {},
+  "attributes": {
+    "titulo": {
+      "type": "string",
+      "required": true
+    },
+    "redesSociais": {
+      "type": "component",
+      "repeatable": true,
+      "component": "header.redes-sociais"
+    },
+    "main": {
+      "type": "component",
+      "repeatable": false,
+      "component": "main.main"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_main_mains",
+  "info": {
+    "name": "main",
+    "icon": "address-card"
+  },
+  "options": {},
+  "attributes": {
+    "titulo": {
+      "type": "string",
+      "required": true
+    },
+    "descricao": {
+      "type": "richtext"
+    }
+  }
+}

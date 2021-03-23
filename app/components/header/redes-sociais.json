@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_header_redes_sociais",
+  "info": {
+    "name": "redesSociais",
+    "icon": "ad"
+  },
+  "options": {},
+  "attributes": {
+    "titulo": {
+      "type": "enumeration",
+      "enum": [
+        "Github",
+        "Linkedin"
+      ],
+      "required": true
+    },
+    "url": {
+      "type": "string"
+    }
+  }
+}
